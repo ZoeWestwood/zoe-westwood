@@ -87,9 +87,9 @@ a
 .aboutLine
 {
 	width: 70%;
-	height: 15px;
+	height: 18px;
 	border: none;
-	background-color: #FF2877;
+	background-color: #FF5392;
 	margin-top: -37%;
 }
 
@@ -98,7 +98,7 @@ a
 	width: 70%;
 	height: 515px;
 	margin: auto;
-	margin-top: -36%;
+	margin-top: -35.6%;
 	background-color: white;
 	-webkit-box-shadow: 0px 4px 15px 0px rgba(0,0,0,0.5);
 	-moz-box-shadow: 0px 4px 15px 0px rgba(0,0,0,0.5);
@@ -121,7 +121,7 @@ a
 {
 	width: 300px;
 	height: 37px;
-	background-color: #FF2877;
+	background-color: #FF5392;
 	border: none;
 	border-radius: 5px;
 	margin-left: 17%;
