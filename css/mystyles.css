@@ -9,7 +9,7 @@ h1
 
 h2
 {
-	font-weight: 300;
+	font-weight: 400;
 	font-family: 'Roboto';
 	font-size: 25px;
 }
@@ -139,4 +139,76 @@ a
 	float: right;
 	margin-right: 6%;
 	margin-top: 2.5%;
+}
+
+
+.portfolioLine
+{
+	width: 70%;
+	height: 18px;
+	border: none;
+	background-color: #FF2877;
+}
+
+.portfolioSection
+{
+	width: 70%;
+	height: 735px;
+	margin: auto;
+	margin-top: -2.7%;
+	background-color: white;
+	-webkit-box-shadow: 0px 4px 15px 0px rgba(0,0,0,0.5);
+	-moz-box-shadow: 0px 4px 15px 0px rgba(0,0,0,0.5);
+	box-shadow: 0px 4px 15px 0px rgba(0,0,0,0.5);
+	margin-bottom: 5%;
+}
+
+.pfRightSide
+{
+	float: left;
+	padding-top: 3%;
+	padding-left: 4%;
+}
+
+.pfLeftSide
+{
+	float: right;
+	width: 47%;
+	padding-right: 5%;
+}
+
+.project1
+{
+	margin-top: 4.5%;
+}
+
+.project2
+{
+	margin-top: 21.5%;
+}
+
+.project3
+{
+	margin-top: 14%;
+}
+
+.experienceLine
+{
+	width: 70%;
+	height: 18px;
+	border: none;
+	background-color: #C71287;
+}
+
+.experienceSection
+{
+	width: 70%;
+	height: 735px;
+	margin: auto;
+	margin-top: -2.7%;
+	background-color: white;
+	-webkit-box-shadow: 0px 4px 15px 0px rgba(0,0,0,0.5);
+	-moz-box-shadow: 0px 4px 15px 0px rgba(0,0,0,0.5);
+	box-shadow: 0px 4px 15px 0px rgba(0,0,0,0.5);
+	margin-bottom: 5%;
 }
