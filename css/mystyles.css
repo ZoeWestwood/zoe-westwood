@@ -239,7 +239,7 @@ a
 .contactSection
 {
 	width: 70%;
-	height: 1130px;
+	height: 460px;
 	margin: auto;
 	margin-top: -2.8%;
 	background-color: white;
@@ -249,3 +249,51 @@ a
 	margin-bottom: 5%;
 }
 
+.section
+{
+	padding-top: 2%;
+	text-align: center;
+}
+
+input[type=text]
+{
+	width: 450px;
+}
+
+textarea
+{
+	width: 450px;
+	height: 150px;
+	resize: none;
+}
+
+.footer
+{
+	bottom: 0;
+}
+
+.footerOne
+{
+	height: 90px;
+	width: 100%;
+	background-color: #C71287;
+}
+
+.footerRight
+{
+	float: right;
+	width: 50%;
+}
+
+.footerLeft
+{
+	float: left;
+	width: 50%;
+}
+
+.footerTwo
+{
+	height: 50px;
+	width: 100%;
+	background-color: #752FC7;
+}
