@@ -270,30 +270,39 @@ textarea
 .footer
 {
 	bottom: 0;
+	position: absolute;
 }
 
 .footerOne
 {
-	height: 90px;
+	height: 100px;
 	width: 100%;
 	background-color: #C71287;
 }
 
-.footerRight
-{
-	float: right;
-	width: 50%;
+.footerNav
+{ 
+	color: white;
+	width: 100%;
+	text-align: center;
+	padding-top: 1%;
 }
 
-.footerLeft
+.footerNav li a 
 {
-	float: left;
-	width: 50%;
+	color: white;
 }
 
 .footerTwo
 {
-	height: 50px;
+	height: 65px;
 	width: 100%;
 	background-color: #752FC7;
+}
+
+.email
+{
+	color: white;
+	text-align: center;
+	padding-top: 1.5%;
 }
