@@ -337,6 +337,17 @@ textarea
 /* Larger than desktop */
 @media (min-width: 1000px) 
 {
+	.info
+	{
+		padding-left: 13%;
+	}
+	
+	.aboutSection
+	{
+		height: 560px;
+		margin-top: -35.2%;
+	}
+	
 	.portfolioSection
 	{
 		margin-top: -3.5%;
@@ -348,6 +359,31 @@ textarea
 		height: 1340px;
 	}
 	
+	.pfRightSide
+	{
+		width: 20%;
+	}
+	
+	.pfLeftSide
+	{
+		width: 37%;
+	}
+	
+	.project1
+	{
+		margin-top: 6%;
+	}
+	
+	.project2
+	{
+		padding-top: 4.3%;
+	}
+	
+	.project3
+	{
+		margin-top: -3%;
+	}
+		
 	.contactSection
 	{
 		margin-top: -3.5%;
