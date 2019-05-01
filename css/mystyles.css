@@ -121,12 +121,21 @@ a
 .leftSide
 {
 	float: left;
+	width: 40%;
+}
+
+.rightSide
+{
+	float: right;
+	width: 60%;
 }
 
 .portrait
 {
 	padding-top: 8%;
 	padding-left: 10%;
+	width: 100%;
+	max-width: 330px;
 }
 
 .download
@@ -309,4 +318,63 @@ textarea
 	color: white;
 	text-align: center;
 	padding-top: 1.5%;
+}
+
+
+
+/* Larger than mobile */
+@media (min-width: 400px) 
+{}
+
+/* Larger than phablet (also point when grid becomes active) */
+@media (min-width: 550px) 
+{}
+
+/* Larger than tablet */
+@media (min-width: 750px) 
+{}
+
+/* Larger than desktop */
+@media (min-width: 1000px) 
+{
+	.portfolioSection
+	{
+		margin-top: -3.5%;
+	}
+	
+	.experienceSection
+	{
+		margin-top: -3.5%;
+		height: 1340px;
+	}
+	
+	.contactSection
+	{
+		margin-top: -3.5%;
+	}
+}
+
+/* Larger than Desktop HD */
+@media (min-width: 1200px) 
+{
+	.portfolioSection
+	{
+		margin-top: -2.9%;
+	}
+	
+	.rightSide
+	{
+		padding-top: 0.5%;
+	}
+	
+	.experienceSection
+	{
+		margin-top: -2.9%;
+		height: 1210px;
+	}
+	
+	.contactSection
+	{
+		margin-top: -2.9%;
+	}
 }
