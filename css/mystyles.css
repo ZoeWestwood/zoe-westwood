@@ -96,15 +96,6 @@ a
 	margin-top: 5%;
 }
 
-.aboutLine
-{
-	width: 70%;
-	height: 18px;
-	border: none;
-	background-color: #FF5392;
-	margin-top: -37%;
-}
-
 .aboutSection
 {
 	width: 70%;
@@ -116,6 +107,7 @@ a
 	-moz-box-shadow: 0px 4px 15px 0px rgba(0,0,0,0.5);
 	box-shadow: 0px 4px 15px 0px rgba(0,0,0,0.5);
 	margin-bottom: 5%;
+	border-top: 18px solid #FF5392;
 }
 
 .leftSide
@@ -162,15 +154,6 @@ a
 	margin-top: 2.5%;
 }
 
-
-.portfolioLine
-{
-	width: 70%;
-	height: 18px;
-	border: none;
-	background-color: #FF2877;
-}
-
 .portfolioSection
 {
 	width: 70%;
@@ -182,6 +165,7 @@ a
 	-moz-box-shadow: 0px 4px 15px 0px rgba(0,0,0,0.5);
 	box-shadow: 0px 4px 15px 0px rgba(0,0,0,0.5);
 	margin-bottom: 5%;
+	border-top: 18px solid #FF2877;
 }
 
 .pfRightSide
@@ -213,25 +197,18 @@ a
 	margin-top: 17.5%;
 }
 
-.experienceLine
-{
-	width: 70%;
-	height: 18px;
-	border: none;
-	background-color: #C71287;
-}
-
 .experienceSection
 {
 	width: 70%;
-	height: 1130px;
-	margin: auto;
+	height: 1330px;
+	margin: 0 auto;
 	margin-top: -2.8%;
 	background-color: white;
 	-webkit-box-shadow: 0px 4px 15px 0px rgba(0,0,0,0.5);
 	-moz-box-shadow: 0px 4px 15px 0px rgba(0,0,0,0.5);
 	box-shadow: 0px 4px 15px 0px rgba(0,0,0,0.5);
 	margin-bottom: 5%;
+	border-top: 18px solid #C71287;
 }
 
 .txt
@@ -239,14 +216,6 @@ a
 	padding-left: 4%;
 	padding-top: 2%;
 	padding-right: 5%;
-}
-
-.contactLine
-{
-	width: 70%;
-	height: 18px;
-	border: none;
-	background-color: #752FC7;
 }
 
 .contactSection
@@ -260,6 +229,7 @@ a
 	-moz-box-shadow: 0px 4px 15px 0px rgba(0,0,0,0.5);
 	box-shadow: 0px 4px 15px 0px rgba(0,0,0,0.5);
 	margin-bottom: 5%;
+	border-top: solid 18px #752FC7;
 }
 
 .section
@@ -324,15 +294,21 @@ textarea
 
 /* Larger than mobile */
 @media (min-width: 400px) 
-{}
+{
+	
+}
 
 /* Larger than phablet (also point when grid becomes active) */
 @media (min-width: 550px) 
-{}
+{
+	
+}
 
 /* Larger than tablet */
 @media (min-width: 750px) 
-{}
+{
+	
+}
 
 /* Larger than desktop */
 @media (min-width: 1000px) 
@@ -406,7 +382,7 @@ textarea
 	.experienceSection
 	{
 		margin-top: -2.9%;
-		height: 1210px;
+		height: 1450px;
 	}
 	
 	.contactSection
