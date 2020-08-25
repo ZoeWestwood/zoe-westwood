@@ -1,3 +1,4 @@
+/* These classes will affect ALL screen sizes for mobiles */
 body {
 	font-family: 'Roboto';
 }
@@ -12,6 +13,16 @@ wrapper {
 	padding: 15px;
 	justify-content: center;
 	align-content: center;
+}
+
+.about, .working-experience, .projects, .contact {
+	margin-bottom: 40px;
+	width: 90%;
+	margin: 30px auto;
+	background-color: #ffffff;
+	box-sizing: border-box;
+	padding: 40px;
+	box-shadow: 0px 4px 15px 0px rgba(0,0,0,0.5);
 }
 
 .header {
@@ -88,6 +99,22 @@ p {
 
 .about-left {
 	display: none;  
+}
+
+.working-experience {
+	border-top: 5px solid #b923bb;
+}
+
+.about {
+	border-top: 5px solid #FF5392;
+}
+
+.projects {
+	border-top: 5px solid #c521a4;
+}
+
+.contact {
+	border-top: 5px solid #752FC7;
 }
 
 .project img {
@@ -187,33 +214,16 @@ textarea
 	text-decoration: none;
 }
 
+/* This is for iPad and tablet devices affects devices or screens up to 768px */
 @media only screen and (min-width: 768px) {
-	.about, .projects, .working-experience, .contact{
-		margin-bottom: 40px;
-		width: 90%;
-		margin: 30px auto;
-		background-color: #ffffff;
-		box-sizing: border-box;
-		padding: 40px;
-		box-shadow: 0px 4px 15px 0px rgba(0,0,0,0.5);
+	.main {
+		margin-top: 0;
 	}
-	
-	.working-experience {
-		border-top: 5px solid #b923bb;
-	}
-	
-	.about {
-		border-top: 5px solid #FF5392;
-	}
-	
-	.projects {
-		border-top: 5px solid #c521a4;
-	}
-	
-	.contact {
-		border-top: 5px solid #752FC7;
-	}
-	
+}
+
+/* This is for classes that will only affect Desktop devices or screens over 768px */
+@media only screen and (min-width: 768px) {
+
 	.main{
 		margin-top: -440px;
 	}
