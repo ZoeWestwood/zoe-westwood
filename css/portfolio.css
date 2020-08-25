@@ -16,6 +16,9 @@ wrapper {
 
 .header {
 	width: 100%;
+	background-color: #fff;
+	position: fixed;
+	top: 0;
 }
 
 h1 {
