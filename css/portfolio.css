@@ -13,15 +13,17 @@ wrapper {
 	padding: 15px;
 	justify-content: center;
 	align-content: center;
+	margin-top: -80px;
+	width: 100%; 
+	box-sizing: border-box;
 }
 
 .about, .working-experience, .projects, .contact {
 	margin-bottom: 40px;
-	width: 90%;
-	margin: 30px auto;
+	width: 100%;
 	background-color: #ffffff;
 	box-sizing: border-box;
-	padding: 40px;
+	padding: 20px;
 	box-shadow: 0px 4px 15px 0px rgba(0,0,0,0.5);
 }
 
@@ -217,51 +219,57 @@ textarea
 /* This is for iPad and tablet devices affects devices or screens up to 768px */
 @media only screen and (min-width: 768px) {
 	.main {
-		margin-top: 0;
+		margin-top: -200px;
 	}
+		.about, .working-experience, .projects, .contact {
+			width: 90%;
+			margin: 0 auto;
+			padding: 40px;
+			margin-bottom: 60px;
+		}
+
+		.project {
+			width: 50%;
+		}
+
+		.project-case {
+			display: flex;
+			flex-direction: row;
+			flex-wrap: wrap;
+		}
+
+		.heroimage{
+			max-width: 100%;
+		}
+
+		.header ul, .footerNav {		
+			margin: 20px 150px;
+		}
 }
 
 /* This is for classes that will only affect Desktop devices or screens over 768px */
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 1199px) {
 
 	.main{
-		margin-top: -440px;
+		margin-top: -360px;
 	}
 	
 	.about-left {
-		display: contents;
-		float: left; 
-		width: 50%;
-	}
-	
-	.about-left img {
-		width: 50%;
-		margin: 25px 0;
-		height: auto;
-	}
-	
-	.about-right { 
-		float: right;
-		width: 50%;
-		box-sizing: border-box;
-		padding: 0 50px;
-	}
-	
-	.project {
-		width: 50%;
-	}
-	
-	.project-case {
-		display: flex;
-		flex-direction: row;
-		flex-wrap: wrap;
-	}
-	
-	.heroimage{
-		max-width: 100%;
-	}
-	
-	.header ul, .footerNav {		
-		margin: 20px 150px;
-	}
+			display: contents;
+			float: left; 
+			width: 50%;
+		}
+
+		.about-left img {
+			width: 50%;
+			margin: 25px 0;
+			height: auto;
+		}
+
+		.about-right { 
+			float: right;
+			width: 50%;
+			box-sizing: border-box;
+			padding: 0 50px;
+		}
 }
