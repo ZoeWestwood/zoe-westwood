@@ -273,3 +273,9 @@ textarea
 			padding: 0 50px;
 		}
 }
+
+@media only screen and (min-width: 1400px) {
+	.main {
+		margin-top: -470px;
+	}
+}
