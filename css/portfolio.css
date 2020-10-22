@@ -57,6 +57,7 @@ h1 {
 
 p {
 	font-size: 16px; 
+	margin-top: 0;
 	text-align: justify;
 }
 
@@ -276,7 +277,6 @@ textarea
 
 		.about-left img {
 			width: 50%;
-			margin: 85px 0 0 0;
 			height: auto;
 		}
 
